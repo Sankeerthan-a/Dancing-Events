@@ -1,0 +1,309 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color:#654F91;
+    color: white;
+    padding: 10px;
+}
+#logo{
+  float: left;
+}
+#logo img{
+  height: 60px;
+  width: 60px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+}
+nav ul img{
+  margin-left: 10px;
+}
+nav li{
+    margin: 5px 10px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+.Dance{
+    width: 100%;
+    background-image: url(./assests/flash2.jpg);
+        /* background-color: #f8f9f8; */
+
+    background-size: cover;
+    height: 110vh;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    color: white;
+}
+.Dance-content{
+    text-align: center;
+    padding: 100px;
+}
+.button{
+    
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    background-color: rgb(69, 69, 105);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.method{
+    background-image: url(./assests/flash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(9, 3, 15);
+    align-items: center;
+}
+.methods{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px;
+    border-radius: 5px;
+}
+.h1{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.h3{
+    font-size: 20px;
+    font-weight: bold;
+   
+    margin-bottom: 10px;
+}
+.p{
+    font-size: 20px;
+    
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.container{
+    background-image: url(./assests/flash.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(9, 3, 15);
+    align-items: center;
+    }
+.containers{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+ }
+h3{
+    color: #333;
+    margin-top: 30px;
+    
+}
+.p{
+    color: #555;
+    line-height: 1.5;
+}
+.event-type{
+    border-left: 5px ;
+    padding-left: 10px ;
+    margin-top: 20px ;
+}
+.Gallery {
+  background-image: url(./assests/flash.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.Gallerys-list {
+  width: 400px;
+  margin: 5px;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.Gallerys-list img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+ .contact{
+  background-image: url(./assests/con.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px 0;  
+  height: 80vh;  
+
+ }
+ form {
+    transition: transparent;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f8f9f8; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  }
+ 
+  .contact-us{
+    margin-bottom: 20px;
+    transition: transparent;
+  }
+  label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  input  input[type="text"],
+  input[type="password"],textarea{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .sub-mit{
+    display: inline-block;
+    background-color: #6115;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .sub-mit:hover{
+    background-color: #53176315;
+  }
+  .login{
+    background-image: url(./assests/login1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px 0;
+    height: 80vh;  
+  }
+  form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f8f9f8; */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    /* background: transparent; */
+    transition: transparent;
+  }
+  .login-content{
+    margin-bottom: 20px;
+  }
+  label{
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+
+  }
+  input[type="text"],
+  input[type="password"]{
+    width: 95%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .sub-mit{
+    display: inline-block;
+    background-color: #6115;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }
+  .sub-mit:hover{
+    background-color: #53176315;
+  }
+  .connect{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+  .register{
+    background-image: url(./assests/da.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    color: rgb(9, 3, 15);
+    align-items: center;
+    padding: 40px 0;  
+    height: 80vh;  
+
+  }
+  form{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #f8f9f8; */
+    transition: transparent;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    color: white;
+  }
+.register-form{
+  margin-bottom: 20px;
+}
+label{
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+
+}
+input[type="text"],
+input[type="password"]
+input[type="phone"]select{
+  width: 95%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.sub-mit{
+  display: inline-block;
+  background-color: #6115;
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.sub-mit:hover{
+  background-color: white;
+  color: black;
+}
+footer{
+    background-color: #6e618a;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    clear: both;
+}
